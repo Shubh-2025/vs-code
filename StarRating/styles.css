@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stars img{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.outer{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(skyblue,white);
+}
+.stars:hover
+{
+    transform: rotate(-10deg);
+    transition-duration: 0.3s;
+}
+.star{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 500px;
+}
+
+input
+{
+    color: black;
+    font-family:Georgia;
+    font-weight: bolder;
+    height:20px;
+    width: auto;
+    text-align: center;
+    background-color:rgba(89, 196, 215, 0);
+    border:none;
+    outline: none;
+    font-size: 20px;
+}

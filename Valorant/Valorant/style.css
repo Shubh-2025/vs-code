@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.Nav-Content {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  border: 2px solid black;
+  justify-content: space-evenly;
+  text-align: left;
+  padding: 2rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Nav-hedder {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.Nav-hedder:hover {
+  color: rgb(255, 98, 0);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#Nav-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    130deg,
+    rgba(255, 0, 0, 0.916) 0,
+    rgb(255, 98, 0) 100%
+  );
+  font-weight: 800;
+  font-size: small;
+  word-spacing: 2px;
+  transition: 0.5s ease-out;
+  border: none;
+  margin-right: 10px;
+}
+#Nav-btn:hover {
+  color: rgb(247, 235, 213);
+  cursor: pointer;
+}
+.Nav-icon {
+  background-image: url("./assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+.Nav-brand {
+  background-image: url("./assets/riot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+}
+input {
+  background-color: #414141;
+  border-radius: 10px;
+  border: none;
+  color: antiquewhite;
+  padding-left: 1rem;
+  font-weight: 500;
+  outline: none;
+}
+#Nav-search {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+#Nav-search > div {
+  background-image: url("./assets/search.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot1 {
+  background-color: #313131;
+  color: #eeeeee;
+  font-weight: 600;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot2,
+.foot2 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-color: #000000;
+  color: #eeeeee;
+}
+.main-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 25px;
+}
+span {
+  padding: 5px;
+}
+.socials,
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 15px;
+}
+.x,
+.insta,
+.fb,
+.tiktok,
+.yt,
+.discord {
+  border: 0.1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #292929;
+  transition: 0.3s ease-in-out;
+}
+.x:hover,
+.insta:hover,
+.fb:hover,
+.tiktok:hover,
+.yt:hover,
+.discord:hover{
+  transform: scale(1.1);
+}
+.copyright {
+  color: #717171;
+}
+.x {
+  background-image: url("./assets/x.png");
+}
+.yt {
+  background-image: url("./assets/youtube.png");
+}
+.insta {
+  background-image: url("./assets/instagram.png");
+}
+.fb {
+  background-image: url("./assets/facebook.png");
+}
+.discord {
+  background-image: url("./assets/discord.png");
+}
+.tiktok {
+  background-image: url("./assets/tiktok.png");
+}
+.riot-logo {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+}
+.riot-logo > div {
+  width: 135px;
+  height: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/riot.png");
+}
+.main-video {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/image4.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play {
+  width: 200px;
+  height: 75px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    130deg,
+    rgba(255, 0, 0, 0.916) 0,
+    rgb(255, 98, 0) 100%
+  );
+  font-weight: 500;
+  font-size: 1.3rem;
+  word-spacing: 2px;
+  transition: 0.5s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.895);
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.638);
+  border: 2px solid white;
+}
+.play:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.slider{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(249, 237, 222, 0.845);
+}
+.slide{
+    width: 400px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: 0.5s ease-out;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.775);
+}
+.slide:hover{
+  transform: scale(1.1);
+}
+#s1{
+    background-image: url("./assets/vandal.jpg");
+}
+#s2{
+    background-image: url("./assets/image3.avif");
+}
+#s3{
+    background-image: url("./assets/image2.jpg");
+}
+.main-image{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  background-color: rgba(249, 237, 222, 0.845);
+  background-image: url("./assets/image1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-left: 20px;
+}
+.main-image > h1{
+  margin-top: 150px;
+  font-size: 5rem;
+}
+.main-image > div{
+  width: 200px;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.462);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.main-image > div:hover{
+  background-color: rgba(255, 255, 255, 0.649);;
+}
+
+.map-container{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(249, 237, 222, 0.845);
+}
+.map-name, .map{
+  position: relative;
+  width: 50%;
+}
+.map{
+  background-image: url("./assets/lotus.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.map-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.map-name > div{
+  color: white;
+  width: 200px;
+  height: 75px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}

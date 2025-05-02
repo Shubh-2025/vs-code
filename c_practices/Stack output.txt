@@ -1,0 +1,113 @@
+"Stack output"
+
+Enter Stack Size : 5
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 10
+10 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 11
+11 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 12
+12 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 13
+13 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 14
+14 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Stack OverFlow...
+ Cannot Push Any Data...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 3
+Stack Elements : |10 |11 |12 |13 |14
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 2
+14 - Successfully Popped...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 3
+Stack Elements : |10 |11 |12 |13
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 2
+13 - Successfully Popped...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 3
+Stack Elements : |10 |11 |12
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit : 1
+Enter Number To Push : 13
+13 - Successfully Pushed ...
+
+Choose : | 1.Push  |2.Pop  |3.Display  |4.Exit :
+3
+Stack Elements : |10 |11 |12 |13
+===============================================================
+
+"Queue output"
+
+Enter Queue Size: 5
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Enter Number to Enqueue: 10
+10 - Successfully Enqueued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Enter Number to Enqueue: 11
+11 - Successfully Enqueued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Enter Number to Enqueue: 12
+12 - Successfully Enqueued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 13
+Invalid choice
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Enter Number to Enqueue: 14
+14 - Successfully Enqueued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit :
+1
+Enter Number to Enqueue: 13
+13 - Successfully Enqueued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Queue Overflow...
+Cannot Enqueue Any More Data...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 3
+Queue Elements: |10 |11 |12 |14 |13
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 2
+10 - Successfully Dequeued...
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 3
+Queue Elements: |11 |12 |14 |13
+
+Choose: | 1.Enqueue | 2.Dequeue | 3.Display | 4.Exit : 1
+Queue Overflow...
+Cannot Enqueue Any More Data...
+===============================================================
+
+"Standard Deviation Output"
+
+Enter the number of elements: 10
+Enter 10 elements:
+12
+15
+12
+14
+60
+23
+85
+11
+89
+70
+Standard Deviation = 31.17

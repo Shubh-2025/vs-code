@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riot Sign In</title>
+    <link rel="icon" href="./assets/logo.png" />
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url("./assets/riot_sign_in_banner.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      position: fixed;
+      top: 50px;
+      left: 50px;
+      width: 125px;
+      height: 65px;
+      background-color: rgba(0, 0, 0, 0);
+      background-image: url("./assets/riot.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .sign_in {
+      width: 450px;
+      height: 550px;
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgb(255, 255, 255);
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      /* justify-content: center; */
+      align-items: center;
+    }
+    .sign-in-form {
+      width: 450px;
+    }
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      width: 100%;
+      gap: 10px;
+    }
+    input[type="email"],
+    input[type="password"] {
+      height: 100px;
+      width: 75%;
+      background-color: rgb(244, 244, 244);
+      border: none;
+      border-radius: 5px;
+      padding: 1.2rem;
+    }
+    .apps {
+      width: 90%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5 {
+      width: 70px;
+      height: 45px;
+      border-radius: 25px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: rgb(255, 255, 255);
+      cursor: pointer;
+    }
+    .icon1{
+        background-image: url("assets/facebook.png");
+    }
+    .icon2{
+        background-image: url("assets/google.png");
+    }
+    .icon3{
+        background-image: url("assets/apple.png");
+    }
+    .icon4{
+        background-image: url("assets/xbox.png");
+    }
+    .icon5{
+        background-image: url("assets/twitter.png");
+    }
+    input{
+      accent-color: red;
+    }
+    
+    .arrow {
+      width: 75px;
+      height: 75px;
+      border: 0.2px solid rgb(73, 23, 23);
+      background-color: white;
+      border-radius: 30%;
+      background-image: url("./assets/arrow.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      outline: none;
+      cursor: not-allowed;
+    }
+  </style>
+  <body>
+    <div class="logo"></div>
+    <div class="sign_in">
+      <h2>Sign In</h2>
+      <div class="sign-in-form">
+        <form>
+          <input type="email" placeholder="Email" id="mail"/>
+          <input type="password" placeholder="Password" id="password"/>
+        </form>
+      </div>
+      <div class="apps">
+        <div class="icon1"></div>
+        <div class="icon2"></div>
+        <div class="icon3"></div>
+        <div class="icon4"></div>
+        <div class="icon5"></div>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" /><label>Confirm Sign In</label>
+      </div>
+      <button class="arrow" disabled></button>
+    </div>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
